@@ -1,0 +1,216 @@
+.toolbox {
+    left: -26px;
+    top: 36%;
+    background-color: #5fd49d;
+    color: #000000;
+    width: 70px;
+    position: absolute;
+    padding: 5px;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    transform: rotate(-90deg);
+}
+.tool-section img {
+    width: 15px;
+    padding: 5px;
+    height: 12px;
+}
+.tool-section {
+    display: flex;
+}
+/* .toolbox::after {
+    content: '\0076';
+    cursor: pointer;
+    pointer-events: none;
+} */
+/* ======== Demography & body section start ========== */
+.demograp {
+    margin-left: 48px;
+    margin-bottom: auto;
+}
+/* =========== Side Tab section start ========== */
+.tab-section {
+    display: flex;
+    justify-content: space-between;
+}
+.tab-section div {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+}
+.side-tab {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin-left: 38px;
+    border-bottom: 4px solid #5fd49d;
+    border-radius: 3px;
+}
+.side-tab-section{
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: #b3b3b3;
+}
+/* =========== Side Tab section end ========== */
+
+/* =========== Dropdown & flilter start ========== */
+
+.select {
+    position: relative;
+    display: flex;
+    width: 140px;
+    height: 25px;
+    line-height: 3;
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: .25em;
+    line-height: 25px;
+}
+select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #000000;
+    cursor: pointer;
+}
+.select::after {
+    content: '\0076';
+    position: absolute;
+    right: 0;
+    padding: 0 9px 0 11px;
+    background: #ffffff;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+    border: 1px solid black;
+    height: 23px;
+}
+.icons {
+    width: 20px;
+    height: 14px;
+    margin-top: 8px;
+    padding-left: 18px;
+}
+/* =========== Dropdown & filter end ========== */
+
+/* =========== Table section start ========== */
+
+.table-head {
+    height: 30px;
+    background-color: #ffffff;
+
+    text-transform: uppercase;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.1);
+
+    color: #645e5e;
+    font-size: 13px;
+    font-weight: 400 !important;
+    font-family: system-ui;
+}
+tr td {
+    width: 160px;
+    border: 1px solid #ffffff;
+    background-color: #3c96b4;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 28px;
+}
+.row-light-blue td {
+    background-color: #3c96b4;  
+}
+.row-dark-blue td {
+    background-color: #174c6f;  
+}
+.row-platinum td {
+    background-color: #d0d0d0;  
+}
+.dark-blue {
+    background-color: #174c6f !important;
+}
+.light-blue {
+    background-color: #3c96b4 !important; 
+}
+.platinum {
+    background-color: #d0d0d0 !important; 
+}
+
+/* =========== Table section end ========== */
+
+/* ======== Demography & body section end ========== */
+/* ======== Benchmark section start ========== */
+.benchmark {
+    display: flex; 
+    list-style-type: none;
+    padding: 0;
+}
+.benchmark li {
+    float: left;
+    padding-right: 15px;
+    margin-right: 19px;
+}
+.marker {
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    width: 8px;
+    height: 20px;
+    margin-right: 10px;
+}
+.bench:before, .bench:after {
+    content: "";
+    width: 12px;
+    height: 20px;
+}
+.bench:before {
+    float: left;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    background: yellow;
+}
+.bench::after {
+    float: left;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background: #001e5d;
+}
+.top-decile {
+    background-color: #001e5d;
+}
+.top-quar {
+    background-color: #3990a7;
+}
+/* =============== Benchmark section end =============== */
+/* ========================== Side list tab Start ==================================== */
+
+.side-section {
+    display: flex;
+}
+.side-section .side {
+    display: inline-block;
+    width: 15%;
+}
+.side-list {
+    list-style-type: none
+}
+.table-section {
+    display: inline-block;
+    width: 84%;
+}
+/* ========================== Side list tab end ==================================== */
+
+/*======= Media Query for reponisve page for screen 767px ============= */
+@media screen and (min-width: 767px) {
+    .side-list{
+        list-style-type: none;
+        font-size: 14px;
+        margin: 53px 0 0px 35px;
+        padding: 5px;
+    }
+    .side-list>li {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+}
+/* ========================== Media query end ==================================== */
+
+
