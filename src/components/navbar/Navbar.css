@@ -6,7 +6,7 @@
   width: 100%;
   background-color: #1b222d;
 }
-li {
+.header li {
   float: left;
 }
 .logo {
