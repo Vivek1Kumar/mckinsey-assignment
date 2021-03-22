@@ -41,9 +41,9 @@ class Demo extends Component {
 
                 </div>
                 <img className="icons" src={Download} alt="Icon" />
-                <div>Download</div>
+                <div className="sec-row">Download</div>
                 <img className="icons" src={Filter} alt="Icon" />
-                <div> Filter</div>
+                <div className="sec-row"> Filter</div>
             </div>
         </div>
 {/* ========================== Side list Start ==================================== */}
