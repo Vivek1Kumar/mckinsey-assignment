@@ -41,7 +41,7 @@
     border-bottom: 4px solid #5fd49d;
     border-radius: 3px;
 }
-.side-tab-section{
+.side-tab-section {
     font-size: 24px !important;
     font-weight: bold !important;
     color: #b3b3b3;
@@ -66,6 +66,7 @@ select {
     padding: 0 .5em;
     color: #000000;
     cursor: pointer;
+    font-size: 16px;
 }
 .select::after {
     content: '\0076';
@@ -198,6 +199,16 @@ select {
     padding: 8px;
     text-align: center;
 }
+.t-h {
+    display: table-cell;
+    vertical-align: inherit; 
+
+    text-align: left;
+    padding: 8px;
+
+    min-width: 115px;
+    text-align: center;
+}
 .t-data {
     display: table-cell;
     vertical-align: inherit;
@@ -217,10 +228,10 @@ select {
     vertical-align: middle;
     border-color: inherit;
     height: 45px;
-    padding: 5px;
     background-color: #ffffff;
     text-transform: uppercase;
     box-shadow: 4px 4px 8px 4px rgb(0 0 0 / 5%);
     margin-right: 11px;
     font-size: 13px;
+    margin-bottom: 10px;
 }

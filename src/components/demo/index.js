@@ -100,18 +100,18 @@ class Demo extends Component {
                 <div className="custom-table">
                     <div className="t-head" id="tableHeader">
                         <ul className="t-row">
-                            <li>Company</li>
-                            <li>Accounting</li>
-                            <li>Addmistrative Support</li>
-                            <li>Architecture</li>
-                            <li>Business Analysis</li>
-                            <li>Broker/Dealer</li>
-                            <li>Business Support</li>
-                            <li>Addmistrative Support</li>
-                            <li>Business Analysis</li>
+                            <li className="t-h">Company</li>
+                            <li className="t-h">Accounting</li>
+                            <li className="t-h">Addmistrative Support</li>
+                            <li className="t-h">Architecture</li>
+                            <li className="t-h">Business Analysis</li>
+                            <li className="t-h">Broker/Dealer</li>
+                            <li className="t-h">Business Support</li>
+                            <li className="t-h">Addmistrative Support</li>
+                            <li className="t-h">Business Analysis</li>
                         </ul>
                     </div>
-                    <br/>
+                    {/* <br/> */}
                     <div className="t-body">
                         <ul className="t-row">
                             <li className="t-data">73</li>
